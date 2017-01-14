@@ -1,0 +1,93 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrap {
+    background: url(imagenes/celular.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover; 
+    width: 100%;  
+}
+.content-wrap{
+    width: 100%;
+    overflow-y: scroll; 
+}
+.content{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255, 0.6);
+    border-radius: 5px;
+}
+.encabezado{
+    display: block;
+    padding: 2rem;
+    margin-top:5rem;
+}
+.encabezado .logo-img{
+    width: 240px;
+}
+.logo-chico{
+    width: 150px;
+}
+.section + .imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.section figure{
+    margin: 0;
+    border: 2px solid grey;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0.5rem 0.5rem;
+}
+.section figure img{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.section{
+    display: block;
+    padding: 2rem;
+}
+
+span.azul{
+    color: blue;
+}
+span.guinda{
+    color: #5f1325;
+}
+span.rojo{
+    color: red;
+}
+span.gris{
+    color:grey;
+}
+strong{
+    font-weight: 900;
+}
+
+div.whats{
+   text-align: center;
+}
+div.whats img{
+    
+}
+h2{
+    display: inline-block;
+    vertical-align: top;
+}
+.section p {
+    text-align: justify;
+}
+
+ul li{
+    margin: 0.8rem;
+}
